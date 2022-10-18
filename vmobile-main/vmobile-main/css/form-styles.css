@@ -1,0 +1,155 @@
+#svg_form_time {
+    height: 15px;
+    max-width: 80%;
+    margin: 40px auto 20px;
+    display: block;
+}
+
+#svg_form_time circle,
+#svg_form_time rect {
+    fill: white;
+}
+
+.button {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.disabled {
+    display: none;
+}
+
+section {
+    padding: 20px;
+    margin: 30px auto;
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pay-opt {
+    background-color: #f4f4f4;
+    padding: 16px 20px;
+    border-bottom: none;
+    border-top: 1px solid #dbdbdb;
+    font-size: .875rem;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.accordion>.card:not(:first-of-type) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.accordion>.card {
+    overflow: hidden;
+}
+
+.card {
+    border: 0.1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: none;
+}
+
+.btn-light:focus {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5);
+}
+
+.form-control {
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #039be5;
+    outline: 0;
+    box-shadow: none;
+}
+
+.input {
+    position: relative;
+}
+
+.input i {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    color: #989898;
+}
+
+.input input {
+    text-indent: 25px;
+}
+
+.card-text {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.certificate-text {
+    font-size: 12px;
+}
+
+.billing {
+    font-size: 11px;
+}
+
+.super-price {
+    top: 0px;
+    font-size: 22px;
+}
+
+.super-month {
+    font-size: 11px;
+}
+
+.line {
+    color: #bfbdbd;
+}
+
+.free-button {
+    background: #1565c0;
+    height: 52px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.payment-card-body {
+    flex: 1 1 auto;
+    padding: 24px 1rem !important;
+}
+
+.minisize {
+    max-width: 624px;
+}
